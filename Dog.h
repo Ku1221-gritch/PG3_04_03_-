@@ -5,7 +5,7 @@ class Dog:public Animal
 {
 public://メンバ関数
 	//コンストラクタ（宣言）
-	Dog(const char* name);
+	void Initialize() override;
 	//デストラクタ（宣言）
 	virtual ~Dog();
 	//鳴き声（宣言）
@@ -13,5 +13,5 @@ public://メンバ関数
 
 private://メンバ変数
 	//名前
-	const char* name;
+	//const char* name;
 };

@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include "Cat.h"
+//
+//Cat::Cat(const char* name)
+//{
+//	this->name = name;
+//}
 
-Cat::Cat(const char* name)
+void Cat::Initialize()
 {
-	this->name = name;
+	name = "ƒjƒƒ[";
 }
 
 Cat::~Cat()

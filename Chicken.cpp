@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include "Chicken.h"
 
-Chicken::Chicken(const char* name)
+//Chicken::Chicken(const char* name)
+//{
+//	this->name = name;
+//}
+
+void Chicken::Initialize()
 {
-	this->name = name;
+	name = "コケコッコー";
 }
 
 Chicken::~Chicken()

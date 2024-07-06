@@ -13,9 +13,12 @@ int main()
 	animal[1] = new Cat;//”L‚Ì–Â‚«º
 	animal[2] = new Chicken;//Œ{‚Ì–Â‚«º
 
-	delete animal[0];
-	delete animal[1];
-	delete animal[2];
+	for (int i = 0; i < 3; i++)
+	{
+		animal[i]->Initialize();
+		animal[i]->Cry();
+	}
+	delete* animal;
 
 	return 0;
 }

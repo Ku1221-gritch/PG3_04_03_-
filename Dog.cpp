@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include "Dog.h"
 
-Dog::Dog(const char* name)
+//Dog::Dog()
+//{
+//}
+
+void Dog::Initialize()
 {
-	this->name = name;
+	name = "ƒƒ“";
+
 }
 
 Dog::~Dog()

@@ -4,13 +4,14 @@ class Animal
 {
 public:
 	//コンストラクタ（宣言）
-	Animal(const char* name);
+	//Animal();
+	virtual void Initialize();
 	//デストラクタ（宣言）
 	virtual ~Animal();
 	//鳴き声（宣言）
 	virtual void Cry();
 
-private://メンバ変数
+protected://メンバ変数
 	//名前
 	const char* name;
 };

@@ -2,9 +2,13 @@
 #include"Animal.h"
 
 //コンストラクタの定義
-Animal::Animal(const char* name) 
+//Animal::Animal()
+//{
+//	
+//}
+
+void Animal::Initialize()
 {
-	this->name = name;
 }
 
 Animal::~Animal()
@@ -14,6 +18,5 @@ Animal::~Animal()
 
 void Animal::Cry()
 {
-	printf("%sと鳴いた\n", name);
 }
 
